@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package task4;
 
+import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args){
         int x = 0;
@@ -21,8 +22,6 @@ public class Task4 {
         }
 
         int maxIndex = searchMaxIndex(symbol);
-
-        System.out.println(searchMaxIndex(symbol));
 
         String[] chislo = new String[7];
         for (int i = 0; i < 7; i++ ){
