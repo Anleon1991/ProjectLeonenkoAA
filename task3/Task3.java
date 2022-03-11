@@ -1,3 +1,5 @@
+package task3;
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -16,9 +18,9 @@ public class Task3 {
                 chek = false;
             }
             if (chek){
-                System.out.println("Все четко!");
+                System.out.println("Корректный ввод");
                 break;
-            } else {System.out.println("хуйня, давай по новой");}
+            } else {System.out.println("Некорректный ввод, повторите попытку");}
         }
         String[] words = str.split(" ");
         int[] count = new int[words.length];
